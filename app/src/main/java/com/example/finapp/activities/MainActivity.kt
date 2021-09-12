@@ -1,11 +1,11 @@
-package com.example.finapp
+package com.example.finapp.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import com.example.finapp.activities.AboutActivity
+import com.example.finapp.R
 import com.example.finapp.fragments.CurrenciesListFragment
 
 
