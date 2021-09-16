@@ -5,8 +5,6 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.finapp.databinding.ActivityAboutBinding
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.MobileAds
 
 
 
@@ -27,7 +25,5 @@ class AboutActivity : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=${applicationContext.packageName}")))
         }
 
-        MobileAds.initialize(this)
-        binding.adView.loadAd(AdRequest.Builder().build())
     }
 }
