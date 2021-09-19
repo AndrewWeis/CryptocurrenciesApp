@@ -1,6 +1,8 @@
 package com.example.finapp.di
 
+import com.example.finapp.activities.ChartActivity
 import com.example.finapp.activities.MainActivity
+import com.example.finapp.chart.LatestChart
 import com.example.finapp.fragments.CurrenciesListFragment
 import com.example.finapp.mvp.presenter.CurrenciesPresenter
 import com.example.finapp.mvp.presenter.LatestChartPresenter
@@ -23,5 +25,6 @@ interface AppComponent {
     fun inject(presenter: CurrenciesPresenter)
     fun inject(presenter: LatestChartPresenter)
     fun inject(fragment: CurrenciesListFragment)
-
+    fun inject(chart: LatestChart)
+    fun inject(activity: ChartActivity)
 }

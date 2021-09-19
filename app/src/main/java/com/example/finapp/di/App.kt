@@ -2,6 +2,10 @@ package com.example.finapp.di
 
 import android.app.Application
 
+/**
+ * Инициализация даггера
+ */
+
 class App : Application() {
 
     companion object {

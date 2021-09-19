@@ -9,6 +9,11 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import javax.inject.Inject
 
+/**
+ * Здесь все аналогично предыдущему презентеру. Единственное отличие — используется оператор map вместо flatMap, поскольку функция
+ * geckoApi.getCoinMarketChart(id) возвращает не список, а Observable<GeckoCoinChart>, и нам не нужно его разворачивать.
+ */
+
 class LatestChartPresenter : LatestChartContract.Presenter() {
 
     @Inject

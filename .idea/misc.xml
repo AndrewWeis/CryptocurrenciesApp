@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Libraries/finApp/app/src/main/res/layout-land/activity_chart.xml" value="0.11022927689594356" />
         <entry key="..\:/Libraries/finApp/app/src/main/res/layout/activity_about.xml" value="0.1" />
+        <entry key="..\:/Libraries/finApp/app/src/main/res/layout/activity_chart.xml" value="0.536" />
         <entry key="..\:/Libraries/finApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Libraries/finApp/app/src/main/res/layout/custom_marker_view.xml" value="0.6" />
         <entry key="..\:/Libraries/finApp/app/src/main/res/layout/fragment_currencies_list.xml" value="0.24010416666666667" />
         <entry key="..\:/Libraries/finApp/app/src/main/res/layout/recycler_view_item.xml" value="0.24592391304347827" />
         <entry key="..\:/Libraries/finApp/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />

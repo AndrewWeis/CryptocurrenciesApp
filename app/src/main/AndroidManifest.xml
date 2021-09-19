@@ -15,8 +15,12 @@
         android:theme="@style/Theme.FinApp">
 
         <activity
+            android:name=".activities.ChartActivity"
+            android:parentActivityName=".activities.MainActivity">
+        </activity>
+
+        <activity
             android:name=".activities.AboutActivity"
-            android:exported="true"
             android:parentActivityName=".activities.MainActivity"/>
         <activity
             android:name=".activities.MainActivity"
